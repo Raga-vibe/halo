@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "HALO — Institutional Market & On-Chain Intelligence Terminal",
+  title: "HALO — Institutional Market & On-Chain Intelligence Terminal | Built by Raga crypt",
   description:
-    "Real-time market telemetry, Binance WebSocket tick feeds, statistical anomaly detection, and deep on-chain liquidity intelligence. Built with Apple restraint and NVIDIA power.",
+    "Real-time market telemetry, Binance WebSocket tick feeds, statistical anomaly detection, and deep on-chain liquidity intelligence. Built by Raga crypt with Apple restraint and NVIDIA power.",
 };
 
 export const viewport: Viewport = {

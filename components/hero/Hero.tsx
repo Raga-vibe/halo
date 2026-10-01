@@ -114,7 +114,7 @@ export function Hero() {
             Next-Gen Market Intelligence
           </span>
           <span className="text-[11px] font-mono text-white/30">|</span>
-          <span className="text-[11px] sm:text-[12px] font-mono text-[#7CFFB2]">v2.4 Live</span>
+          <span className="text-[11px] sm:text-[12px] font-mono text-[#7CFFB2]">Built by Raga crypt</span>
         </div>
 
         {/* The One Monumental Line of Copy (112px-140px on large desktop) */}
@@ -154,6 +154,10 @@ export function Hero() {
             <span className="text-[#7CFFB2]">&lt; 8.2ms</span>
           </div>
           <div className="hidden md:flex items-center gap-1.5">
+            <span className="text-white/40">ENGINEER:</span>
+            <span className="text-[#7CFFB2]">RAGA CRYPT</span>
+          </div>
+          <div className="hidden lg:flex items-center gap-1.5">
             <span className="text-white/40">PIPELINE:</span>
             <span className="text-white">BINANCE + LLAMA</span>
           </div>

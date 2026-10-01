@@ -44,6 +44,8 @@ export function FooterCTA() {
           <div className="flex items-center gap-3">
             <span className="font-semibold text-white">HALO</span>
             <span>&bull;</span>
+            <span className="text-[#7CFFB2]">BUILT BY RAGA CRYPT</span>
+            <span>&bull;</span>
             <span>INSTITUTIONAL MARKET INTELLIGENCE</span>
           </div>
 

@@ -204,6 +204,9 @@ export default function TerminalPage() {
               <div className="w-1.5 h-1.5 rounded-full bg-[#7CFFB2]" />
             </div>
             <span>HALO</span>
+            <span className="hidden xl:inline text-[10px] font-mono text-[#7CFFB2] px-1.5 py-0.2 rounded bg-[#7CFFB2]/10 border border-[#7CFFB2]/20">
+              BY RAGA CRYPT
+            </span>
           </Link>
 
           {/* Quick Asset Selector Tabs */}
