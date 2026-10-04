@@ -370,6 +370,23 @@ export default function TerminalPage() {
         )}
       </main>
 
+      {/* Terminal Compact Status Footer */}
+      <footer className="w-full border-t border-white/[0.08] px-4 py-2 flex flex-col sm:flex-row items-center justify-between gap-2 font-mono text-[11px] text-[#8A8F98] bg-[#07070A]">
+        <div className="flex items-center gap-3">
+          <span className="font-semibold text-white">HALO TERMINAL</span>
+          <span className="text-white/20">&bull;</span>
+          <span className="text-[#7CFFB2]">BUILT BY RAGA CRYPT</span>
+          <span className="text-white/20">&bull;</span>
+          <span className="text-white/50">SUB-8MS WEBSOCKET PIPELINE</span>
+        </div>
+        <div className="flex items-center gap-4 text-white/60">
+          <Link href="/about" className="hover:text-white transition-colors">About</Link>
+          <Link href="/privacy" className="hover:text-white transition-colors">Privacy</Link>
+          <Link href="/terms" className="hover:text-white transition-colors">Terms</Link>
+          <Link href="/" className="hover:text-white transition-colors">Home</Link>
+        </div>
+      </footer>
+
       {/* Global Command Palette */}
       <CommandPalette
         isOpen={isCommandPaletteOpen}

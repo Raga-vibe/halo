@@ -86,7 +86,13 @@ export function Hero() {
         </div>
 
         {/* Nav Actions */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-4">
+          <Link
+            href="/about"
+            className="hidden sm:inline-block text-[13px] text-[#8A8F98] hover:text-white transition-colors duration-200"
+          >
+            About
+          </Link>
           <Link
             href="#story"
             className="hidden sm:inline-block text-[13px] text-[#8A8F98] hover:text-white transition-colors duration-200"

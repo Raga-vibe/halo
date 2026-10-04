@@ -50,19 +50,25 @@ export function FooterCTA() {
           </div>
 
           <div className="flex items-center gap-6">
+            <Link href="/about" className="hover:text-white transition-colors">
+              About
+            </Link>
+            <Link href="/privacy" className="hover:text-white transition-colors">
+              Privacy
+            </Link>
+            <Link href="/terms" className="hover:text-white transition-colors">
+              Terms
+            </Link>
             <Link href="/terminal" className="hover:text-white transition-colors">
               Terminal
             </Link>
-            <Link href="#story" className="hover:text-white transition-colors">
-              Architecture
-            </Link>
             <a
-              href="https://github.com"
+              href="https://github.com/Raga-vibe/halo"
               target="_blank"
               rel="noreferrer"
               className="hover:text-white transition-colors"
             >
-              Source
+              GitHub
             </a>
             <span className="text-white/40">RELEASE 2.4.0</span>
           </div>
